@@ -1,0 +1,64 @@
+
+.title {
+    margin-top: 40px;
+    display: block;
+    font-weight: 600;
+}
+
+.daily-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.icon-smalll {
+    width: 50px;
+    cursor: inherit;
+}
+
+.day {
+    cursor: inherit;
+    flex: 1 1;
+    margin-left: 10px;
+}
+
+.description {
+    cursor: inherit;
+}
+
+.min-max {
+    cursor: inherit;
+    color: rgb(87, 87, 87);
+    margin-left: 15px;
+}
+
+.forecast-extra-info {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+
+
+.forecast-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.forecast-item p:first-child{
+    color: rgb(82, 82, 82);
+}
+
+.forecast-item p:last-child{
+    color: rgb(32, 32, 32);
+}
+/* .parameter-label-forecast {
+    color: rgb(82, 82, 82);
+} */
